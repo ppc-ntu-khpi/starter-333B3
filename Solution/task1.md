@@ -1,8 +1,11 @@
+![](task1-1.png)
+![](task1-2.png)
+```java
 public class Shirt {
     public int shirtID = 0; // стандартне значення номера моделі сорочки
     public String description = "Сорочка з золотої нитки"; // стандартний опис сорочки
     // коди кольорів: R=червоний, B=синій, G=зелений, U=невідомо
-    String colorCode = "Gold";
+    public char colorCode = 'g';
     public double price = 10000.0; // стандартна вартість сорочки
     public int quantityInStock = 10; // стандартна кількість на складі
     
@@ -15,3 +18,4 @@ public class Shirt {
       System.out.println("Quantity in stock: " + quantityInStock);
     } // кінець методу displayShirtInformation
   } // кінець опису класу
+```

@@ -1,3 +1,16 @@
+![](3-1.png)
+```java
+public class Quotation {
+    String quote = "Your worth consists in what you are and not in what you have.";
+    String author = "Thomas Edison";
+    public void display() {
+      System.out.println(quote);
+      System.out.println(author);
+    }
+  }
+```
+![](3-2.png)
+```java
 public class Shirt {
     public int shirtID = 0; // стандартне значення номера моделі сорочки
     public String description = "Сорочка з золотої нитки"; // стандартний опис сорочки
@@ -15,3 +28,4 @@ public class Shirt {
       System.out.println("Quantity in stock: " + quantityInStock);
     } // кінець методу displayShirtInformation
   } // кінець опису класу
+```
